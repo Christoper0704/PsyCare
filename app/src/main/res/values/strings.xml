@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PsyCare</string>
+    <string name="get_started">Get Started</string>
+    <string name="login">Login</string>
+    <string name="onboarding_1_title">Welcome to PsyCare!</string>
+    <string name="onboarding_2_title">Chatbot Consultation</string>
+    <string name="onboarding_3_title">Constructive Games</string>
+</resources>
