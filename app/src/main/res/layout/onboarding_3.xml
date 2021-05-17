@@ -3,9 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/custom_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginBottom="270dp"
-    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
@@ -13,12 +12,9 @@
     <ImageView
         android:id="@+id/onboardingImage"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="186dp"
+        android:layout_height="320dp"
         android:contentDescription="Onboarding image"
         android:src="@drawable/onboarding_3"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,10 +23,10 @@
         android:id="@+id/onboardingTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
         android:text="@string/onboarding_3_title"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="32sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/onboardingImage" />
@@ -43,7 +39,7 @@
         android:text="Pick from the recommended library of\ngames where you can improve your\nmental health in a fun way."
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/onboardingTitle" />

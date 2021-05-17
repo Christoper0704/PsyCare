@@ -2,7 +2,13 @@
     <string name="app_name">PsyCare</string>
     <string name="get_started">Get Started</string>
     <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
     <string name="onboarding_1_title">Welcome to PsyCare!</string>
     <string name="onboarding_2_title">Chatbot Consultation</string>
     <string name="onboarding_3_title">Constructive Games</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
 </resources>
