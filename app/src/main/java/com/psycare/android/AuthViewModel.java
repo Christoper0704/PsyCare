@@ -1,4 +1,4 @@
-package com.example.psycare;
+package com.psycare.android;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;

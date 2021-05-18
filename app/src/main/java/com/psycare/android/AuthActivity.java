@@ -1,4 +1,11 @@
-package com.example.psycare;
+package com.psycare.android;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.ViewFlipper;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -8,12 +15,6 @@ import androidx.transition.Scene;
 import androidx.transition.Transition;
 import androidx.transition.TransitionManager;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.ViewFlipper;
 
 public class AuthActivity extends AppCompatActivity {
     private ImageView btnBack, btnGoogle, btnFacebook;

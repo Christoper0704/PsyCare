@@ -1,12 +1,12 @@
-package com.example.psycare;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.psycare.android;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.synnapps.carouselview.CarouselView;
 import com.synnapps.carouselview.ViewListener;
